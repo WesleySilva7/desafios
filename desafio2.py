@@ -1,7 +1,9 @@
 # VAMOS CALCULAR FIBONACCI
 
 def fibonacci(n):
+  a, b = 0, 1
 fib_sequence = [a,b]
+
 
 while b < n:
   a, b = b, a + b
